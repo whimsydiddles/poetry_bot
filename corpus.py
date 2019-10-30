@@ -1,7 +1,3 @@
-pip install --process-dependency-links https://github.com/aparrish/gutenberg-poetry-corpus/archive/master.zip
-
-python -m gutenbergpoetrycorpus.build --srczip=PATH-TO-GUTENBERG-DAMMIT-ZIP | gzip -c >gutenberg-poetry.ndjson.gz
-
 from setuptools import setup
     
 with open('README.md') as readme_file:
